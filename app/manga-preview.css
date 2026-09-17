@@ -1,0 +1,11 @@
+.manga-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 400px);
+    gap: 20px;
+    width: 100%;
+}
+
+.manga-preview {
+    display: flex;
+    flex-direction: column;
+}

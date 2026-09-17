@@ -1,0 +1,12 @@
+.navbar {
+    display: flex;
+    background: #222;
+}
+
+.navbar a {
+    padding: 10px;
+}
+
+.navbar a:hover {
+    background-color: #333;
+}
