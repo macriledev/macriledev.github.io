@@ -6,6 +6,20 @@
 }
 
 .manga-preview {
+    position: relative;
     display: flex;
     flex-direction: column;
+}
+
+.manga-preview * {
+    text-overflow: ellipsis;
+    overflow-x: hidden;
+    text-wrap: nowrap;
+}
+
+.manga-preview img {
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    position: relative;
 }
